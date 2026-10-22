@@ -1,5 +1,5 @@
 <!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#65001b"><link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="apple-touch-icon.png"><title>Overtime - Late Train</title><style>
-*{box-sizing:border-box}body{margin:0;background:#f6f3f4;color:#29242a;font:16px/1.45 system-ui,sans-serif}header{background:linear-gradient(135deg,#4d0016,#810027);color:#fff;padding:18px;border-bottom:5px solid #ed0751}.head{max-width:700px;margin:auto;display:flex;align-items:center;gap:14px}.logo{width:78px;height:78px;border-radius:15px;object-fit:cover}.brand{font-size:clamp(23px,5vw,32px);font-weight:850;line-height:1.05}main{max-width:700px;margin:18px auto;padding:0 14px}.card{background:#fff;border-radius:16px;padding:20px;border:1px solid #e7dfe3}.notice{padding:12px;background:#fff5df;border-left:4px solid #e6b52f;border-radius:8px;font-size:13px;margin-bottom:18px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.field{display:flex;flex-direction:column;gap:6px;min-width:0}.full{grid-column:1/-1}label{font-weight:750;font-size:14px}input,select,textarea{font:inherit;width:100%;min-height:47px;padding:11px;border:1px solid #cfc5cb;border-radius:10px;background:white}.hint{font-size:12px;color:#706870}.result{margin-top:17px;padding:14px;background:#fbf0f4;border:1px solid #efd5df;border-radius:11px}.result b{display:block;color:#65001b;font-size:13px}.time{font-size:27px;font-weight:850;color:#65001b}.actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}.btn{padding:13px;border-radius:10px;font-weight:750;border:1px solid #e2c5d0;min-height:47px}.primary{background:#65001b;color:white;border-color:#65001b}.secondary{background:#faeaf0;color:#65001b}.reset{width:100%;margin-top:10px;background:white}.status{text-align:center;font-size:12px;color:#706870;margin-top:12px;min-height:18px}@media(max-width:520px){
+*{box-sizing:border-box}body{margin:0;background:#f6f3f4;color:#29242a;font:16px/1.45 system-ui,sans-serif}header{background:linear-gradient(135deg,#4d0016,#810027);color:#fff;padding:18px;border-bottom:5px solid #ed0751}.head{max-width:700px;margin:auto;display:flex;align-items:center;gap:14px}.logo{width:78px;height:78px;border-radius:15px;object-fit:cover}.brand{font-size:clamp(23px,5vw,32px);font-weight:850;line-height:1.05}main{max-width:700px;margin:18px auto;padding:0 14px}.card{background:#fff;border-radius:16px;padding:20px;border:1px solid #e7dfe3}.notice{padding:12px;background:#fff5df;border-left:4px solid #e6b52f;border-radius:8px;font-size:13px;margin-bottom:18px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.field{display:flex;flex-direction:column;gap:6px;min-width:0}.full{grid-column:auto}label{font-weight:750;font-size:14px}input,select,textarea{font:inherit;width:100%;min-height:47px;padding:11px;border:1px solid #cfc5cb;border-radius:10px;background:white}.hint{font-size:12px;color:#706870}.result{margin-top:17px;padding:14px;background:#fbf0f4;border:1px solid #efd5df;border-radius:11px}.result b{display:block;color:#65001b;font-size:13px}.time{font-size:27px;font-weight:850;color:#65001b}.actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}.btn{padding:13px;border-radius:10px;font-weight:750;border:1px solid #e2c5d0;min-height:47px}.primary{background:#65001b;color:white;border-color:#65001b}.secondary{background:#faeaf0;color:#65001b}.reset{width:100%;margin-top:10px;background:white}.status{text-align:center;font-size:12px;color:#706870;margin-top:12px;min-height:18px}@media(max-width:700px){
  body{font-size:15px;line-height:1.35;overflow-x:hidden}
  header{padding:10px 12px;border-bottom-width:3px}
  .head{gap:10px}
@@ -8,9 +8,9 @@
  main{width:100%;margin:8px auto;padding:0 8px}
  .card{padding:11px;border-radius:12px}
  .notice{padding:8px 9px;font-size:12px;margin-bottom:11px}
- .grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 8px}
+ .grid{grid-template-columns:minmax(0,1fr);gap:10px}
  .field{gap:4px}
- .full{grid-column:1/-1}
+ .full{grid-column:auto}
  label{font-size:12px;line-height:1.25}
  input,select,textarea{font-size:16px;min-height:42px;padding:8px;border-radius:8px;min-width:0}
  textarea{min-height:58px;resize:vertical}
@@ -18,12 +18,12 @@
  .result{margin-top:11px;padding:9px}
  .result b{font-size:12px}
  .time{font-size:24px}
- .actions{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;margin-top:11px}
+ .actions{grid-template-columns:minmax(0,1fr);gap:8px;margin-top:11px}
  .btn{font-size:14px;padding:10px 6px;min-height:43px;border-radius:8px;white-space:normal}
  .reset{margin-top:7px}
  .status{margin-top:8px;font-size:11px;min-height:15px}
 }
-@media(max-width:350px){.grid{gap:8px 6px}.card{padding:9px}.btn{font-size:13px}.logo{width:42px;height:42px}}
+@media(max-width:350px){.grid{gap:8px}.card{padding:9px}.btn{font-size:13px}.logo{width:42px;height:42px}}
 
 </style></head><body><header><div class="head"><img class="logo" src="icon-192.png" alt="App icon"><div class="brand">OVERTIME -<br>LATE TRAIN</div></div></header><main><section class="card"><div class="notice">⚠️ <b>12-hour rest rule</b> Confirm the 12-hour rule and other rostering rules are not compromised before submitting.</div><form id="f"><div class="grid">
 <div class="field"><label for="date">Date</label><input id="date" type="date" required></div>
