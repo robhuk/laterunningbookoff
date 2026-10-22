@@ -1,8 +1,8 @@
 # Overtime - Late Train PWA
 
-Upload all contents of this folder to the root of `robhuk/xcdelayappstaff` and commit to the GitHub Pages branch. This package does not deploy itself.
+Keep all logo/icon PNG files in the root directory and upload all contents of this folder to the root of `robhuk/xcdelayappstaff` and commit to the GitHub Pages branch. This package does not deploy itself.
 
-Includes PWA manifest, service worker, CrossCountry-themed icons, mobile form, local form auto-save, three-digit numeric delay field, operational delay reasons, custom Other reason, revised book-off calculation, and email/copy actions.
+Includes PWA manifest, service worker, CrossCountry-themed logo and icon image files stored in the repository root, mobile form, local form auto-save, three-digit numeric delay field, operational delay reasons, custom Other reason, revised book-off calculation, and email/copy actions.
 
 Subject: `Late book of request from HEADCODE on DD/MM/YY`
 
